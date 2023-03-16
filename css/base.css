@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  border-bottom: 50px solid #d9c9b0;
+  font-family: Verdana, Geneva, sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  background: #f5f5dc url('../images/header-bg.jpg') no-repeat;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header h1 {
+  font: 50px Palatino, 'Palatino Linotype', serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(48,48,48);
+  box-shadow: 0 0 5px 5px #808080;
+  margin: 0;
+  padding: 1.5em;
+  width: 100%
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  font-weight: bold;
+  list-style: none;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#shirts div {
+  background-color: #d9c9b0;
+  box-shadow: 0 0 10px 5px #808080;
+  padding: 10px;
+}
+
+div a {
+  color: #008000;
+}
